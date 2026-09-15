@@ -53,7 +53,7 @@
                            FontSize="22" FontAttributes="Bold"
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center" />
-                    <Label Grid.Column="2" Text="Exige Termo" TextColor="White"
+                    <Label Grid.Column="2" Text="Dosagem" TextColor="White"
                            FontSize="22" FontAttributes="Bold"
                            HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center" />
@@ -73,15 +73,16 @@
                                   Padding="8"
                                   BackgroundColor="#E9EEF5">
                                 <Label Text="{Binding NomeMedicamento}"
-                                       TextColor="Black" FontSize="13"
+                                       TextColor="Black" FontSize="14" 
+                                       FontAttributes="Bold" 
                                        VerticalTextAlignment="Center" />
                                 <Label Grid.Column="1"
-                                       Text="{Binding QuantidadeMedicamento}"
+                                       Text="{Binding Quantidade}"
                                        TextColor="Black"
                                        HorizontalTextAlignment="Center"
                                        VerticalTextAlignment="Center" />
                                 <Label Grid.Column="2"
-                                       Text="{Binding ExigeTermoTexto}"
+                                       Text="{Binding Dosagem}"
                                        TextColor="Black"
                                        HorizontalTextAlignment="Center"
                                        VerticalTextAlignment="Center" />

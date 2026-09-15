@@ -1,5 +1,4 @@
 using Localimed.ModelView;
-using Localimed.Services;
 
 namespace Localimed.Views;
 

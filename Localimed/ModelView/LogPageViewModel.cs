@@ -79,7 +79,7 @@ public class LogPageViewModel : INotifyPropertyChanged
         if (IdentificacaoUsuario == "1")
         {
 
-            await Application.Current.MainPage.DisplayAlert("Sucesso", "Conexão certinha !", "jaé neguin");
+            await Application.Current.MainPage.DisplayAlert("Sucesso", "Conexão certinha", "jaé neguin");
 
             await Application.Current.MainPage.Navigation.PushAsync(new Views.HomePage());
 
